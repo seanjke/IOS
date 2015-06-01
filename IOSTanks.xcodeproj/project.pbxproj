@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3608099D1B0BBC6E003C9BD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3608099C1B0BBC6E003C9BD4 /* main.m */; };
 		360809A01B0BBC6E003C9BD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3608099F1B0BBC6E003C9BD4 /* AppDelegate.m */; };
-		360809A31B0BBC6E003C9BD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 360809A21B0BBC6E003C9BD4 /* ViewController.m */; };
+		360809A31B0BBC6E003C9BD4 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 360809A21B0BBC6E003C9BD4 /* MyViewController.m */; };
 		360809A61B0BBC6E003C9BD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 360809A41B0BBC6E003C9BD4 /* Main.storyboard */; };
 		360809A81B0BBC6E003C9BD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 360809A71B0BBC6E003C9BD4 /* Images.xcassets */; };
 		360809AB1B0BBC6E003C9BD4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 360809A91B0BBC6E003C9BD4 /* LaunchScreen.xib */; };
@@ -32,8 +32,8 @@
 		3608099C1B0BBC6E003C9BD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3608099E1B0BBC6E003C9BD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3608099F1B0BBC6E003C9BD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		360809A11B0BBC6E003C9BD4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		360809A21B0BBC6E003C9BD4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		360809A11B0BBC6E003C9BD4 /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		360809A21B0BBC6E003C9BD4 /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		360809A51B0BBC6E003C9BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		360809A71B0BBC6E003C9BD4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		360809AA1B0BBC6E003C9BD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,8 +83,8 @@
 			children = (
 				3608099E1B0BBC6E003C9BD4 /* AppDelegate.h */,
 				3608099F1B0BBC6E003C9BD4 /* AppDelegate.m */,
-				360809A11B0BBC6E003C9BD4 /* ViewController.h */,
-				360809A21B0BBC6E003C9BD4 /* ViewController.m */,
+				360809A11B0BBC6E003C9BD4 /* MyViewController.h */,
+				360809A21B0BBC6E003C9BD4 /* MyViewController.m */,
 				360809A41B0BBC6E003C9BD4 /* Main.storyboard */,
 				360809A71B0BBC6E003C9BD4 /* Images.xcassets */,
 				360809A91B0BBC6E003C9BD4 /* LaunchScreen.xib */,
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				360809A31B0BBC6E003C9BD4 /* ViewController.m in Sources */,
+				360809A31B0BBC6E003C9BD4 /* MyViewController.m in Sources */,
 				360809A01B0BBC6E003C9BD4 /* AppDelegate.m in Sources */,
 				3608099D1B0BBC6E003C9BD4 /* main.m in Sources */,
 			);
@@ -416,6 +416,7 @@
 				360809BC1B0BBC6E003C9BD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		360809BD1B0BBC6E003C9BD4 /* Build configuration list for PBXNativeTarget "IOSTanksTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +425,7 @@
 				360809BF1B0BBC6E003C9BD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
